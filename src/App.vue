@@ -6,10 +6,13 @@ export default {
     return {
       message: "ciao melinda"
     }
+  },
+  components: {
+    AppTitle,
+  },
+  methods: {
+
   }
-},
-components: {
-  AppTitle
 }
 
 </script>
@@ -17,7 +20,7 @@ components: {
 <template>
   <h1>{{ message }}</h1>
   <section>
-
+    <AppTitle />
   </section>
 </template>
 

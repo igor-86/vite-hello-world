@@ -3,7 +3,7 @@
 export default {
     data() {
         return {
-            firtMessage: "La mia prima App Vite!"
+            firstMessage: "La mia prima App Vite!"
         }
     }
 }
@@ -11,9 +11,11 @@ export default {
 </script>
 
 <template>
-    <h1>{{ firtMessage }}</h1>
+    <h1>{{ firstMessage }}</h1>
 </template>
 
 <style scoped>
-
+h1 {
+    color: red;
+}
 </style>
